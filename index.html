@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Heea – Web Developer</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <!-- Font Awesome CDN for social icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+  <!-- This is Header Section -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <a href="#" class="logo">
+        <span class="logo-badge">HE</span>
+        <span>Heea</span>
+      </a>
+      <nav class="nav">
+        <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+        <label for="menu-toggle" class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+        <ul class="menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="./heea-resume.pdf" target="_blank" download class="resume-link">Download CV</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- This is Hero Section -->
+  <section class="hero" id="home">
+    <div class="container hero-container">
+      <div class="hero-info">
+        <div class="hero-avatar">
+          <img src="./images/profile.jpg" alt="Profile photo of Heea">
+        </div>
+        <h1 class="hero-title">Hi, I'm <span class="highlight">Heea</span></h1>
+        <h2 class="hero-role">Web Developer & Cloud Enthusiast</h2>
+        <p class="hero-desc">
+          I build robust, scalable, and beautiful websites and applications. I love making technology simple and accessible for everyone.
+        </p>
+        <div class="socials">
+          <a class="social-btn github" href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+          <a class="social-btn linkedin" href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          <a class="social-btn twitter" href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+        </div>
+        <a class="btn primary-btn" href="#contact">Let's Work Together</a>
+      </div>
+    </div>
+  </section>
+
+  <!--This is About Section-->
+  <section id="about" class="about">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-content">
+        <div class="about-highlight">
+          <p>
+            I'm a passionate web developer who believes in the power of technology to solve real problems.
+            My journey started with curiosity and has grown into a career focused on continuous learning and delivering exceptional value to clients.
+          </p>
+        </div>
+        <div class="about-list">
+          <ul>
+            <li><b>Location:</b> Bangladesh</li>
+            <li><b>Experience:</b> 2+ years in web development</li>
+            <li><b>Core strengths:</b> Frontend, Cloud, Modern JS</li>
+            <li><b>Philosophy:</b> Lifelong learner, creative coder, dedicated problem-solver</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--This is Skills Section -->
+  <section id="skills" class="skills">
+    <div class="container">
+      <h2 class="section-title">My Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-item">
+          <i class="fab fa-html5 skill-icon" style="color:#e44d26"></i>
+          <div>
+            <h3>HTML5 & CSS3</h3>
+            <div class="skill-bar"><span style="width: 95%"></span></div>
+          </div>
+        </div>
+        <div class="skill-item">
+          <i class="fab fa-js-square skill-icon" style="color:#f7df1e"></i>
+          <div>
+            <h3>JavaScript (ES6+)</h3>
+            <div class="skill-bar"><span style="width: 90%"></span></div>
+          </div>
+        </div>
+        <div class="skill-item">
+          <i class="fab fa-react skill-icon" style="color:#61dafb"></i>
+          <div>
+            <h3>React.js</h3>
+            <div class="skill-bar"><span style="width: 85%"></span></div>
+          </div>
+        </div>
+        <div class="skill-item">
+          <i class="fab fa-node-js skill-icon" style="color:#68a063"></i>
+          <div>
+            <h3>Node.js</h3>
+            <div class="skill-bar"><span style="width: 80%"></span></div>
+          </div>
+        </div>
+        <div class="skill-item">
+          <i class="fas fa-cloud skill-icon" style="color:#0099e5"></i>
+          <div>
+            <h3>AWS & Cloud</h3>
+            <div class="skill-bar"><span style="width: 75%"></span></div>
+          </div>
+        </div>
+        <div class="skill-item">
+          <i class="fab fa-git-alt skill-icon" style="color:#f34f29"></i>
+          <div>
+            <h3>Git & GitHub</h3>
+            <div class="skill-bar"><span style="width: 90%"></span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- This is Education  Section-->
+  <section id="education" class="education">
+    <div class="container">
+      <h2 class="section-title">Education & Certifications</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">2021–2025</span>
+            <h3 class="timeline-title">Diploma in Engineering (CSE)</h3>
+            <p>CGPA: 3.40/4.00</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">2019</span>
+            <h3 class="timeline-title">Secondary School Certificate (SSC)</h3>
+            <p>GPA: 4.50/5.00</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">2021–2025</span>
+            <h3 class="timeline-title">Certifications</h3>
+            <p>AWS Fundamentals, Python Basics, Networking, HTML & CSS</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- This is Project showcasing section -->
+  <section id="projects" class="projects">
+    <div class="container">
+      <h2 class="section-title">Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=400&q=80" alt="Cloud Portfolio">
+          <div class="project-title">Cloud Portfolio</div>
+        </div>
+        <div class="project-card">
+          <img src="https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=400&q=80" alt="WebApp Demo">
+          <div class="project-title">WebApp Demo</div>
+        </div>
+        <div class="project-card">
+          <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80" alt="React Dashboard">
+          <div class="project-title">React Dashboard</div>
+        </div>
+        <div class="project-card">
+          <img src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80" alt="API Explorer">
+          <div class="project-title">API Explorer</div>
+        </div>
+        <div class="project-card">
+          <img src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=400&q=80" alt="Node.js App">
+          <div class="project-title">Node.js App</div>
+        </div>
+        <div class="project-card">
+          <img src="https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?auto=format&fit=crop&w=400&q=80" alt="Portfolio Redesign">
+          <div class="project-title">Portfolio Redesign</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- This is Contact Section -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2 class="section-title">Contact</h2>
+      <p>Let's connect! Send a message below.</p>
+      <form class="contact-form" action="#" method="post" onsubmit="return false;">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea rows="4" placeholder="Message" required></textarea>
+        <button class="btn primary-btn" type="submit">Send</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- This is footer section -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 Heea — All Rights Reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
